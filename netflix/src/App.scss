@@ -1,0 +1,46 @@
+*{
+    margin:0px;
+    padding:0px;
+    color:white;
+
+}
+*{
+    // color:white;
+    text-decoration: none;
+}
+$bg:rgb(30,30,30);
+
+.header{
+    height:100px;
+    background-color: $bg;
+    display: flex;
+    align-items: center;
+    padding:.5rem;
+    box-sizing: border-box;
+    justify-content: space-between;
+
+> img{
+    height:100%;
+
+}
+>div{
+    // border:1px solid red;
+    width:100%;
+    margin-left:4vmax;
+    > a{
+        margin:1vmax;
+        font-size: 1.3rem;
+        font-weight: 300;
+    }
+}
+
+>svg{
+    color:white;
+    font-size:1.5rem;
+    cursor: pointer;
+    margin-right:4%;
+}
+&:hover{
+    color:rgb(237, 143, 143)
+}
+}
